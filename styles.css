@@ -52,3 +52,72 @@ body {
     font-size: 2.2em;
 }
 
+.second_Section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_Section-container {
+  display: flex;
+  flex-direction: row;        
+  gap: 48px;                  
+  align-items: center;       
+  flex-shrink: 0;
+  width: 100%;                 
+ /*  max-width: 2000px;           */
+  margin: 0 auto;             
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  flex: 1;
+}
+
+.second_Section-left-text{
+    color: #252432;
+  text-align: left;
+  font-family: "Raleway-Bold", sans-serif;
+font-size: 42px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+
+.second_Section-left-subtext {
+  color: rgba(37, 36, 50, 0.5);
+  text-align: left;
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+
+.launch-live-preview {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  height: 50px;
+  width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+  color: white;
+  background-color: #4E47FF;
+  text-align: center;
+
+}
+
+.wc-mini {
+  border-radius: 50px;
+  flex-shrink: 0;
+  width: 400px;
+  height: 328px;
+  position: relative;
+  object-fit: cover;
+}
