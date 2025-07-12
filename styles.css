@@ -3,6 +3,8 @@
     margin: 20px;
     padding: 0;
     box-sizing: border-box;
+   
+
 }
 
 /* Body Styling */
@@ -121,3 +123,77 @@ font-size: 42px;
   position: relative;
   object-fit: cover;
 }
+
+ /* Productive Users Section */
+
+.action-section-main {
+  background: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 50px 80px 50px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.action-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.action-section-text {
+color: #252432;
+  text-align: center;
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.action-section-users-container {
+display: flex;
+  flex-direction: row;
+  gap: 158px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.action-section-active-users {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+}
+.active-users-numbers {
+  color: #4e47ff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  position: relative;
+}
+.active-users-number-text{
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+
+
+
+
